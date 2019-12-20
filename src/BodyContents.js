@@ -15,24 +15,24 @@ class BodyContents extends React.Component {
                             <div className="service-box boxcolor">
                                 <div className="service-icon ">
                                     <div className="front-content">
-                                        <i className="fa fa-trophy"></i>
+                                       
                                         <h3>INTERVIEWER</h3>
                                     </div>
                                 </div>
                                 <div class="service-content">
                                     <h3>INTERVIEWER</h3>
                                     <ul className="ul">
-                                        <li>
-                                            <a href="#">Login</a>
+                                        <li >
+                                             <a className="linkcolor2" href="#" >Login</a> 
                                         </li>
                                         <li>
-                                            <a href="#">Why theRapidHire</a>
+                                            <a  className="linkcolor2" href="#">Why theRapidHire</a>
                                         </li>
                                         <li>
-                                            <a href="#">Interviewer Requirement</a>
+                                            <a  className="linkcolor2"  href="#">Interviewer Requirement</a>
                                         </li>
                                         <li>
-                                            <a href="#">Support</a>
+                                            <a className="linkcolor2" href="#">Support</a>
                                         </li>
 
 
@@ -44,7 +44,7 @@ class BodyContents extends React.Component {
                             <div className="service-box">
                                 <div className="service-icon boxcolor">
                                     <div className="front-content">
-                                        <i className="fa fa-anchor"></i>
+                                        
                                         <h3>CANDIDATE</h3>
                                     </div>
                                 </div>
@@ -52,16 +52,16 @@ class BodyContents extends React.Component {
                                     <h3>CANDIDATE</h3>
                                     <ul className="ul">
                                         <li>
-                                            <a href="#">login</a>
+                                            <a className="linkcolor2" href="#">login</a>
                                         </li>
                                         <li>
-                                            <a href="#">Whats's in it for you</a>
+                                            <a className="linkcolor2" href="#">Whats's in it for you</a>
                                         </li>
                                         <li>
-                                            <a href="#">Express Interview</a>
+                                            <a className="linkcolor2" href="#">Express Interview</a>
                                         </li>
                                         <li>
-                                            <a href="#">Support</a>
+                                            <a className="linkcolor2" href="#">Support</a>
                                         </li>
 
                                     </ul>
@@ -72,8 +72,7 @@ class BodyContents extends React.Component {
                             <div className="service-box ">
                                 <div className="service-icon boxcolor">
                                     <div className="front-content">
-                                        <i className="fa fa-trophy"></i>
-                                        <h3>Hiring</h3>
+                                           <h3>Hiring</h3>
                                     </div>
                                 </div>
                                 <div className="service-content">

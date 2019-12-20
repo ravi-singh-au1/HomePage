@@ -1,7 +1,6 @@
 import React from 'react';
 import home from './home.css';
 
-import { MDBCol, MDBFormInline, MDBBtn } from "mdbreact";
 import Footer from './footer';
 // import Navbar from 'react-bootstrap/Navbar';
 import BodyContents from './BodyContents';
@@ -18,19 +17,17 @@ class Home extends React.Component {
                         </button>
                         <div className="collapse navbar-collapse " id="navbarNav">
                             <ul className="navbar-nav ">
+                               
+                                <li className="nav-item active">
+                                    <a className="nav-link linkcolor" href="#">login</a>
+                                </li>
                                 <li className="nav-item active ">
-                                    <a className="nav-link linkcolor" href="#">Home <span class="sr-only">(current)</span></a>
+                                    <a className="nav-link linkcolor " href="#">Home <span class="sr-only">(current)</span></a>
                                 </li>
                                 <li className="nav-item active">
                                     <a className="nav-link linkcolor" href="#">About us</a>
                                 </li>
-                                <li className="nav-item active">
-                                    <a className="nav-link linkcolor" href="#">Contacts</a>
-                                </li>
-                                <li className="nav-item active">
-                                    <a className="nav-link linkcolor" href="#">login</a>
-                                </li>
-
+                                
                             </ul> </div>
 
                     </nav>
@@ -38,6 +35,7 @@ class Home extends React.Component {
 
                     <div></div>
                     <div className="backgroundimg">
+
                         <div className="row text-center text">
                             <div className="col">
                                 <h5 className="text-uppercase font-weight-bold typography ">TheRapidHire</h5>
@@ -66,9 +64,12 @@ class Home extends React.Component {
                          </div>
                     {/*               
               // our teams */}
-              <div className="row text-center">
-                  <h3>LeatestNews of our customer</h3>
-              </div>
+             <div className="container">
+                 <div className="row ">
+                     <h3 className="textcenter"> Latest news of our customers</h3>
+                 </div>
+             </div>
+
 
               <div className="">
                     <div class="row ">
@@ -76,13 +77,27 @@ class Home extends React.Component {
                             <LeatestNews />
                         
                     </div>
+                    <br />
                     </div>
-
-
-                    <br />
-
-                    <br />
 <br />
+<br />
+<br />
+<div className=" container-fluid">
+    <div className="row">
+        <div className="col-md-sm-6">
+    <i class ="fas fa-phone fasfa-phone" > 8709864514</i>
+    </div>
+    <div className="col-md-sm-6">
+    <i class ="fas fa fa-email fasfa-phone" >ravics0027@gmail.com</i>
+    </div>
+   
+    
+    </div>
+</div>
+
+                    <br />
+
+                    <br />
             
                 <div className="footer">
                     <footer className="page-footer font-small ">
